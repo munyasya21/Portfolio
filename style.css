@@ -33,7 +33,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: red;
+    color: plum;
 }
 
 .detel{
@@ -157,8 +157,8 @@ button{
 }
 
 button:hover{
-    color: red;
-    border: 2px solid red;
+    color: plum;
+    border: 2px solid plum;
     cursor: pointer;
 }
 
@@ -229,8 +229,8 @@ h3{
 }
 
 .card .button:hover{
-    color: red;
-    border: 2px solid red;
+    color: plum;
+    border: 2px solid plum;
     cursor: pointer; 
 }
 
@@ -263,7 +263,7 @@ h3{
 
 .contact-me .button-two:hover{
     color: transparent;
-    border: 2px solid red;
+    border: 2px solid plum;
     cursor: pointer;  
 
 }
