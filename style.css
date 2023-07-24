@@ -183,7 +183,7 @@ button:hover{
     min-height: 400px;
 }
 
-.card{
+.card {
     height: 365px;
     width: 335px;
     padding: 20px 35px;
@@ -195,12 +195,11 @@ button:hover{
     text-align: center;
 }
 
-.card i {
-    font-size: 10px;
-    display: block;
-    text-align: center;
-    margin: 25px 0px;
-    color: black;
+.svg {
+    height: 50px;
+    
+    
+    
 }
 .card path{
     font-size: 10px;
@@ -320,4 +319,8 @@ footer p:nth-child(2){
     color: white;
     bottom: 35px;
     font-size: 14px;
+}
+
+.topIcons{
+      margin-left: 8%;
 }
