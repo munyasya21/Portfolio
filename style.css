@@ -296,13 +296,14 @@ footer p:nth-child(2){
     display: flex;
 }
 
-.icons a{
+.icons ion-icon{
     width: 45px;
     height: 45px;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: red;
+    background: plum;
     border-radius: 50%;
-    margin: 25px 10px;
+    margin: 22px 10px;
+
 }
