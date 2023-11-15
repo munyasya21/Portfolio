@@ -181,6 +181,12 @@ button:hover{
     justify-content: center;
     align-items: center;
     min-height: 400px;
+  
+}
+.card:hover{
+    background: #ff004f;
+    transform: translateY(-10px);
+
 }
 
 .card {
@@ -193,6 +199,7 @@ button:hover{
     position: relative;
     overflow: hidden;
     text-align: center;
+    transition: background 0.5s, transform 0.5s;
 }
 
 .svg {
@@ -233,38 +240,34 @@ h3{
     border: 2px solid plum;
     cursor: pointer; 
 }
+#portfolio{
+    padding: 50px 0;
+}
 
-.contact-me{
+.work h1{
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.kazi{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+.kazi img{
     width: 100%;
-    height: 490px;
-    background: #191919;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: center;
+    border-radius: 10px;
+    height: 60vh;
 }
-
-.contact-me p{
-    color: white;
-    font-size: 30px;
-    font-weight: bold;
-    margin-bottom: 25px;
-}
-
-.contact-me .button-two{
-    background-color: black; 
-    color: white;
-    text-decoration: none;border: 2px solid transparent;
-    font-weight: bold;
-    padding: 9px 22px;
-    border-radius: 30px;
-    transition: .4s;  
-}
-
-.contact-me .button-two:hover{
-    color: transparent;
-    border: 2px solid plum;
-    cursor: pointer;  
+.work-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap:40px;
+    margin-top: 50px;
+    
+   
 
 }
 
