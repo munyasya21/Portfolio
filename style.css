@@ -342,9 +342,12 @@ h3{
 .cop p{
     width: 20px;
     height: 20px;
-    display: inline-block;
+    display: inline-block;   
     
-    
+}
+.cop{
+    width: 20px;
+    height: 20px;
 }
 .contact {
     margin-left: 50px;
