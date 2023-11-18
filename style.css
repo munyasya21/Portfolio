@@ -345,9 +345,16 @@ h3{
     display: inline-block;   
     
 }
-.cop{
-    width: 20px;
-    height: 20px;
+.top{
+    width: 30px;
+    height: 30px;
+    margin-top: 20px;
+    text-decoration: none;
+    background: #fff;
+    border-radius: 50%;
+    line-height: 50px;
+    color: #ff004f;
+    
 }
 .contact {
     margin-left: 50px;
@@ -371,6 +378,12 @@ form input, form textarea{
     color: #fff;
     font-size: 18px;
     border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
 }
 
 footer{
@@ -428,4 +441,16 @@ footer p:nth-child(2){
 
 .topIcons{
       margin-left: 8%;
+}
+
+/*-----------css for small screen--------*/
+@media only screen and (max-width: 600px){
+    #header 
+    .hero-text{
+        margin-top: 100%;
+        font-size: 16px;
+    }
+    .detel-text h1{
+        font-size: 30px;
+    }
 }
