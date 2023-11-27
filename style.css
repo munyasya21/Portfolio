@@ -77,13 +77,10 @@ span{
     position: absolute;
     bottom: 0;
     right: 50px;
-    transform: translateX(-50);
-    transition: bottom 1s, left 1s;
+    border-radius: 50%;
+    
 }
 
-.images:hover .girl{
-    left: 45%;
-}
 .icons a{
     text-decoration: none;
     color: beige;
@@ -108,6 +105,7 @@ span{
 .about img{
     height: auto;
     width: 430px;
+    border-radius: 50%;
 }
 
 .about-text{
@@ -443,8 +441,8 @@ footer p:nth-child(2){
       margin-left: 8%;
 }
 
-/*-----------css for small screen--------*/
-@media only screen and (max-width: 600px){
+/*-----------css for small screens--------*/
+@media only screen and (max-width: 400px){
     #header 
     .hero-text{
         margin-top: 100%;
@@ -452,5 +450,18 @@ footer p:nth-child(2){
     }
     .detel-text h1{
         font-size: 30px;
+    }
+    nav ul{
+        background: #ff004f;
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 200px;
+        height: 100vh;
+        padding-top: 50px;
+    }
+    nav ul li{
+        display: block;
+        margin: 25px;
     }
 }
